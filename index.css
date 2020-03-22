@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+  .road1,.road2,.road3,.road4{
+    display: grid;
+    height: 70px;
+    background:  black;
+}
+
+.road2,.road4{
+    border-top: 7px dashed  white;
+
+}
+
+img{
+    
+    width: 70px;
+}
+.car1{
+    margin-top: -3px;
+    
+}
+.car2{
+    margin-top: -50px;
+}
+.car4{
+    margin-top: -80px;
+}
+#speed{
+     animation-delay: 0ms;
+}
+.road3{
+    margin-top: 60px;
+    
+}
+.car3,.car4{
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+}
+body{
+
+    background-image: url("./assets/sand.png");
+    background: red
+    }
+.margin1,.margin2,.margin3,.margin4{
+    display: grid;
+    height: 5px;
+    background: white;
+
+}
+.margin1,.margin3{
+    margin-top: 5px;
+}
+.margin2,.margin4{
+    margin-top: 60px;
+}
+#back,#back1{
+    height: 150px;
+    width: 100%;
+}
+#frog{
+    margin-left: 500px;
+    margin-top: 500px;
+}
